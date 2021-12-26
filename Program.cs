@@ -10,8 +10,7 @@ namespace SumArray
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[0];
-            
+            int[] numbers = new int[0];            
             int sum = 0;            
             int tempNumber;
             string userInput = "";
@@ -43,8 +42,7 @@ namespace SumArray
                     int intValue;
                     if (int.TryParse(userInput, out intValue))
                     {
-                        tempNumber = Convert.ToInt32(userInput);
-                        
+                        tempNumber = Convert.ToInt32(userInput);                        
                         int[] tempNumbers = new int[numbers.Length + 1];
                         for (int i = 0; i < numbers.Length; i++)
                         {
